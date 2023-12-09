@@ -1,0 +1,159 @@
+* {
+    @extend %default-extend;
+}
+
+body {
+    @extend %body-extend;
+}
+
+nav {
+    @extend %navbar-extend;
+}
+
+.nav-logo-block {
+    @extend %nav-logo-block-extend;
+}
+
+.nav-logo {
+    @extend %nav-logo-extend;
+}
+
+.nav-panels {
+    @extend %nav-panels-extend;
+}
+
+.panel-1 {
+    @extend %panel-1-extend;
+}
+
+.panel-5 {
+    @extend %panel-5-extend;
+}
+
+.first-text-block {
+    @extend %first-text-block-extend;
+}
+
+.block-1 {
+    @extend %block-1-extend;
+}
+
+.block-2 {
+    @extend %block-2-extend;
+}
+
+.block-2-text-1 {
+    @extend %block-2-text-1-extend;
+}
+
+.block-2-btn {
+    @extend %block-2-btn-extend;
+}
+
+.block-2-arrow {
+    @extend %block-2-arrow-extend;
+}
+
+.block-3 {
+    @extend %block-3-extend;
+}
+
+.block-3-rec-text {
+    @extend %block-3-rec-text-extend;
+}
+
+.rec-icon {
+    @extend %rec-icon-extend;
+}
+
+.block-3-selectors-block {
+    @extend %block-3-selectors-block-extend;
+}
+
+.selector {
+    @extend %selector-extend;
+}
+
+.sel-down-text {
+    @extend %sel-down-text-extend;
+}
+
+.see-all-text {
+    @extend %see-all-text-extend;
+}
+
+.selector-2 {
+    background-image: url('https://img.freepik.com/premium-photo/parsley-isolated-on-white-background_434193-7365.jpg?size=626&ext=jpg');
+}
+
+.selector-3 {
+    background-image: url('https://img.freepik.com/premium-photo/fresh-spinach-on-a-white-background_183352-1436.jpg');
+}
+
+.block-4 {
+    @extend %block-4-extend;
+}
+
+.block-4-first-text {
+    @extend %block-4-first-text-extend;
+}
+
+.tools-img {
+    @extend %tools-img-extend;
+}
+
+.see-all-text-2 {
+    @extend %see-all-text-2-extend;
+}
+
+.block-4-img {
+    @extend %block-4-img-extend;
+}
+
+.block-4-img-text {
+    @extend %block-4-img-text-extend;
+}
+
+.right-block {
+    @extend %right-block-extend;
+}
+
+.right-block-first-text-img {
+    @extend %right-block-first-text-img-extend;
+}
+
+.right-block-block-1 {
+    @extend %right-block-block-1-extend;
+}
+
+.right-block-block-1-text {
+    @extend %right-block-block-1-text-extend;
+}
+
+.right-block-block-1-down-text {
+    @extend %sel-down-text-extend;
+}
+
+.right-block-block-1-btn {
+    @extend %right-block-block-1-btn-extend;
+}
+
+.right-block-second-text-1 {
+    @extend %right-block-second-text-1-extend;
+}
+
+.right-block-second-text-2 {
+    @extend %right-block-second-text-2-extend;
+}
+
+.right-block-block-2 {
+    @extend %right-block-block-2-extend;
+}
+
+.right-block-block-2-text-1 {
+    @extend %right-block-second-text-1-extend;
+}
+
+.right-block-block-2-text-2 {
+    @extend %right-block-second-text-2-extend;
+}

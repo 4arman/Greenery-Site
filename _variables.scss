@@ -1,0 +1,258 @@
+// Default Settings
+$default-margin: 0;
+$default-padding: 0;
+$default-box-sizing: border-box;
+$default-text-align: center;
+$default-color: #111;
+$default-font-family: 'Poppins', sans-serif;
+$default-font-size: 20px;
+$default-font-weight: 500;
+$default-border: none;
+$default-outline: none;
+
+// Body Settings
+$body-background-color: #efebeb;
+
+// Navbar Settings
+$navbar-width: 110px;
+$navbar-height: 100vh;
+$navbar-background-color: #f6f6f6;
+$navbar-padding: 5px;
+$navbar-position: fixed;
+
+// Nav Logo Block Settings
+$nav-logo-block-padding-top: 20px;
+
+// Nav Logo Settings
+$nav-logo-width: 63px;
+
+// Nav Panels Settings
+$nav-panels-width: 45px;
+$nav-panels-font-size: 25px;
+$nav-panels-color: rgb(167, 167, 167);
+$nav-panels-margin: 23px;
+$nav-panels-cursor: pointer;
+
+// Panel 1 Settings
+$panel-1-background-color: rgb(90, 139, 0); 
+$panel-1-padding: 10px;
+$panel-1-border-radius: 50%;
+$panel-1-color: #fff;
+$panel-1-margin-top: 130px;
+
+// Panel 5 (Exit Panel) Settings
+$panel-5-margin-top: 90px;
+
+// First Text Block Settings
+$first-text-block-position: relative;
+$first-text-block-margin-left: 145px;
+$first-text-block-top: 20px;
+
+// Block-1 Settings
+$block-1-position: relative;
+$block-1-top: 40px;
+$block-1-width: 630px;
+$block-1-height: 55px;
+$block-1-background-color: rgb(168, 191, 125);
+$block-1-border-radius: 8px;
+$block-1-margin-left: 145px;
+$block-1-padding: 10px;
+$block-1-color: #fff;
+$block-1-font-size: 14px;
+$block-1-text-align: left;
+
+// Block-2 Settings
+$block-2-width: 630px;
+$block-2-height: 170px;
+$block-2-position: relative;
+$block-2-top: 50px;
+$block-2-background: url('https://ukrainianwall.com/images/2019/06/20/mxsgr7oNKBDphAN8c3lvTM6onlxo93Jawa0COWAx.jpeg');
+$block-2-border-radius: 8px;
+$block-2-margin-left: 145px;
+
+// Block-2-Text-1 Settings
+$block-2-text-1-color: #ffffff;
+$block-2-text-1-text-align: left;
+$block-2-padding-left: 25px;
+$block-2-padding-top: 10px;
+
+// Block-2 Btn Settings
+$block-2-btn-cursor: pointer;
+$block-2-btn-position: relative;
+$block-2-btn-left: 240px;
+$block-2-btn-top: 40px;
+$block-2-btn-width: 110px;
+$block-2-btn-height: 43px;
+$block-2-btn-background-color: #badb78;
+$block-2-btn-font-size: 12px;
+$block-2-btn-padding: 7px;
+$block-2-btn-border-radius: 22px;
+$block-2-btn-color: #62783a;
+
+// Block-2 Arrow Settings
+$block-2-arrow-position: relative;
+$block-2-arrow-top: 3px;
+$block-2-arrow-color: #62783a;
+$block-2-arrow-font-size: 17px;
+
+
+// Block-3 Settings
+$block-3-width: 630px;
+$block-3-height: 190px;
+$block-3-border-radius: 8px;
+$block-3-background-color: #faf6f6;
+$block-3-margin-left: 145px;
+$block-3-position: relative;
+$block-3-top: 70px;
+$block-3-padding-top: 8px;
+$block-3-padding-left: 25px;
+
+// Block-3-Rec-Text Settings
+$block-3-rec-text-text-align: left;
+$block-3-rec-text-font-size: 17px;
+$block-3-rec-text-font-weight: bold;
+
+// Rec Icon Settings
+$rec-icon-width: 14px;
+$rec-icon-position: relative;
+$rec-icon-top: 2px;
+$rec-icon-right: 6px;
+
+// Selector Settings
+$selector-width: 182px;
+$selector-height: 130px;
+$selector-margin: 6px;
+$selector-paddin-top: 8px;
+$selector-paddin-left: 13px;
+$selector-background-image: url('https://img.freepik.com/premium-photo/butterhead-lettuce-on-a-white-background_41471-3340.jpg');
+$selector-border-radius: 8px;
+$selector-font-size: 14px;
+$selector-font-weight: bold;
+$selector-text-align: left;
+
+// Selector Down Text Settings
+$sel-down-text-color: #666;
+$sel-down-text-font-size: 10px;
+$sel-down-font-weight: bold;
+$sel-down-text-align: left;
+
+// See All Text Settings
+$see-all-text-cursor: pointer;
+$see-all-text-position: relative;
+$see-all-text-left: 380px;
+$see-all-text-font-size: 14px;
+$see-all-text-color: #666;
+
+// Block 4 Settings
+$block-4-width: 630px;
+$block-4-height: 150px;
+$block-4-position: relative;
+$block-4-background-color: #faf6f6;
+$block-4-border-radius: 8px;
+$block-4-margin-left: 145px;
+$block-4-top: 80px;
+$block-4-padding-top: 10px;
+$block-4-padding-left: 25px;
+
+// Block-4 First Text Settings
+$block-4-first-text-text-align: left;
+$block-4-first-text-font-size: 16px;
+$block-4-first-text-font-weight: bold;
+
+// Tools Icon Settings
+$tools-img-position: relative;
+$tools-img-top: 4px;
+$tools-img-right: 6px;
+$tools-img-width: 20px;
+
+// See All Text 2 Settings
+$see-all-text-2-cursor: pointer;
+$see-all-text-2-font-size: 14px;
+$see-all-text-2-color: #666;
+$see-all-text-2-position: relative;
+$see-all-text-2-left: 255px;
+$see-all-text-2-bottom: 160px;
+
+// Block-4 Image Settings
+$block-4-img-position: relative;
+$block-4-img-top: 13px;
+$block-4-img-width: 72px;
+$block-4-img-height: 72px;
+$block-4-img-border-radius: 10px;
+$block-4-background-image: url('https://img.freepik.com/premium-photo/urban-gardening-watering-fresh-vegetables-and-herbs-on-fruitful-soil-in-the-own-garden-raised-bed_264749-1552.jpg');
+
+// Block-4 Image Text Settings
+$block-4-img-text-width: 500px;
+$block-4-img-text-postion: relative;
+$block-4-img-text-color: #666;
+$block-4-img-text-text-align: left;
+$block-4-img-text-font-size: 12px;
+$block-4-img-text-bottom: 52px;
+$block-4-img-text-left: 85px;
+
+
+
+
+
+// Right Block Settings
+$right-block-position: relative;
+$right-block-bottom: 525px;
+$right-block-left: 793px;
+$right-block-padding: 15px;
+$right-block-padding-left: 20px;
+$right-block-width: 540px;
+$right-block-height: 605px;
+$right-block-background-color: #faf6f6;
+$right-block-border-radius: 15px;
+
+// Right Block First Text Img Settings
+$right-block-first-text-img-width: 25px;
+$right-block-first-text-img-position: relative;
+$right-block-first-text-img-top: 6px;
+$right-block-first-text-img-right: 2px;
+
+// Right Block Block-1 Settings
+$right-block-block-1-width: 500px;
+$right-block-block-1-height: 210px;
+$right-block-block-1-margin-top: 10px;
+$right-block-block-1-padding: 15px;
+$right-block-block-1-padding-left: 20px;
+$right-block-block-1-background-image: url('https://chudobludo.com/assets/images/products/594/medium/zelen-1.png');
+$right-block-block-1-border-radius: 20px;
+$right-block-block-1-filter: brightness(88%);
+
+// Right Block Block-1 Text Settings
+$right-block-block-1-text-text-align: left;
+$right-block-block-1-text-font-size: 17px;
+$right-block-block-1-text-font-weight: bold;
+$right-block-block-1-text-color: #111;
+
+// Right Block Block-1 Btn Settings
+$right-block-block-1-btn-cursor: pointer;
+$right-block-block-1-btn-color: #62783a;
+$right-block-block-1-btn-position: relative;
+$right-block-block-1-btn-top: 100px;
+$right-block-block-1-btn-left: 180px;
+$right-block-block-1-btn-width: 100px;
+$right-block-block-1-btn-height: 35px;
+$right-block-block-1-btn-background-color: #e5f2c5;
+$right-block-block-1-btn-font-size: 11px;
+$right-block-block-1-btn-padding: 6px;
+$right-block-block-1-btn-border-radius: 22px;
+$right-block-block-1-btn-opacity: 80%;
+
+// Right Block Second Text-1 Settings
+$right-block-second-text-1-font-size: 16px;
+$right-block-second-text-1-font-weight: bold;
+
+// Right Block Second Text-2 Settings
+$right-block-second-text-2-color: #666;
+$right-block-second-text-2-font-size: 16px;
+
+// Right Block Block-2 Settings
+$right-block-block-2-width: 500px;
+$right-block-block-2-height: 130px;
+$right-block-block-2-background-color: #fff;
+$right-block-block-2-border-radius: 20px;
+$right-block-block-2-margin-top: 10px;
+$right-block-block-2-box-shadow: 1px 2px 6px #d3d3d3;

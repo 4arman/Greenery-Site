@@ -1,0 +1,320 @@
+%default-extend {
+    margin: $default-margin;
+    padding: $default-padding;
+    box-sizing: $default-box-sizing;
+    color: $default-color;
+    text-align: $default-text-align;
+    font-family: $default-font-family;
+    font-size: $default-font-size;
+    font-weight: $default-font-weight;
+    border: $default-border;
+    outline: $default-outline;
+}
+
+%body-extend {
+    background-color: $body-background-color;
+}
+
+%navbar-extend {
+    width: $navbar-width;
+    height: $navbar-height;
+    background-color: $navbar-background-color;
+    padding: $navbar-padding;
+    position: $navbar-position;
+}
+
+%nav-logo-block-extend {
+    padding-top: $nav-logo-block-padding-top;
+}
+
+%nav-logo-extend {
+    width: $nav-logo-width;
+}
+
+%nav-panels-extend {
+    width: $nav-panels-width;
+    font-size: $nav-panels-font-size;
+    color: $nav-panels-color;
+    margin: $nav-panels-margin;
+    cursor: $nav-panels-cursor;
+}
+
+%panel-1-extend {
+    background-color: $panel-1-background-color;
+    color: $panel-1-color;
+    padding: $panel-1-padding;
+    border-radius: $panel-1-border-radius;
+    margin-top: $panel-1-margin-top;
+}
+
+%panel-5-extend {
+    margin-top: $panel-5-margin-top;
+}
+
+%flex-left-extend {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+%first-text-block-extend {
+    @extend %flex-left-extend;
+    position: $first-text-block-position;
+    margin-left: $first-text-block-margin-left;
+    top: $first-text-block-top;
+}
+
+%block-1-extend {
+    position: $block-1-position;
+    top: $block-1-top;
+    width: $block-1-width;
+    height: $block-1-height;
+    background-color: $block-1-background-color;
+    border-radius: $block-1-border-radius;
+    margin-left: $block-1-margin-left;
+    padding: $block-1-padding;
+    text-align: $block-1-text-align;
+    color: $block-1-color;
+    font-size: $block-1-font-size;
+}
+
+%background-extend {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+%block-2-extend {
+    width: $block-2-width;
+    height: $block-2-height;
+    position: $block-2-position;
+    top: $block-2-top;
+    @extend %background-extend;
+    background-image: $block-2-background;
+    border-radius: $block-2-border-radius;
+    margin-left: $block-2-margin-left;
+}
+
+%block-2-text-1-extend {
+    color: $block-2-text-1-color;
+    text-align: $block-2-text-1-text-align;
+    padding-left: $block-2-padding-left;
+    padding-top: $block-2-padding-top;
+}
+
+%block-2-btn-extend {
+    cursor: $block-2-btn-cursor;
+    position: $block-2-btn-position;
+    top: $block-2-btn-top;
+    left: $block-2-btn-left;
+    width: $block-2-btn-width;
+    height: $block-2-btn-height;
+    background-color: $block-2-btn-background-color;
+    border-radius: $block-2-btn-border-radius;
+    color: $block-2-btn-color;
+    font-size: $block-2-btn-font-size;
+    padding: $block-2-btn-padding;
+}
+
+%block-2-arrow-extend {
+    position: $block-2-arrow-position;
+    top: $block-2-arrow-top;
+    color: $block-2-arrow-color;
+    font-size: $block-2-arrow-font-size;
+}
+
+%block-3-extend {
+    width: $block-3-width;
+    height: $block-3-height;
+    position: $block-3-position;
+    top: $block-3-top;
+    margin-left: $block-3-margin-left;
+    background-color: $block-3-background-color;
+    border-radius: $block-3-border-radius;
+    padding-top: $block-3-padding-top;
+    padding-left: $block-3-padding-left;
+}
+
+%block-3-rec-text-extend {
+    font-size: $block-3-rec-text-font-size;
+    font-weight: $block-3-rec-text-font-weight;
+    text-align: $block-3-rec-text-text-align;
+}
+
+%rec-icon-extend {
+    width: $rec-icon-width;
+    position: $rec-icon-position;
+    top: $rec-icon-top;
+    right: $rec-icon-right;
+}
+
+%flex-center-extend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%block-3-selectors-block-extend {
+    @extend %flex-left-extend;
+}
+
+%selector-extend {
+    width: $selector-width;
+    height: $selector-height;
+    margin: $selector-margin;
+    border-radius: $selector-border-radius;
+    padding-top: $selector-paddin-top;
+    padding-left: $selector-paddin-left;
+    @extend %background-extend;
+    background-image: $selector-background-image;
+    text-align: $selector-text-align;
+    font-size: $selector-font-size;
+    font-weight: $selector-font-weight;
+    filter: brightness(85%);
+}
+
+%sel-down-text-extend {
+    color: $sel-down-text-color;
+    font-size: $sel-down-text-font-size;
+    font-weight: $sel-down-font-weight;
+    text-align: $sel-down-text-align;
+}
+
+%see-all-text-extend {
+    cursor: $see-all-text-cursor;
+    position: $see-all-text-position;
+    left: $see-all-text-left;
+    font-size: $see-all-text-font-size;
+    color: $see-all-text-color;
+}
+
+%block-4-extend {
+    width: $block-4-width;
+    height: $block-4-height;
+    position: $block-4-position;
+    top: $block-4-top;
+    margin-left: $block-4-margin-left;
+    background-color: $block-4-background-color;
+    border-radius: $block-4-border-radius;
+    padding-top: $block-4-padding-top;
+    padding-left: $block-4-padding-left;
+}
+
+%block-4-first-text-extend {
+    text-align: $block-4-first-text-text-align;
+    font-size: $block-4-first-text-font-size;
+    font-weight: $block-4-first-text-font-weight;
+}
+
+%tools-img-extend {
+    position: $tools-img-position;
+    top: $tools-img-top;
+    right: $tools-img-right;
+    width: $tools-img-width;
+}
+
+%see-all-text-2-extend {
+    cursor: $see-all-text-2-cursor;
+    font-size: $see-all-text-2-font-size;
+    color: $see-all-text-2-color;
+    position: $see-all-text-2-position;
+    left: $see-all-text-2-left;
+    bottom: $see-all-text-2-bottom;
+}
+
+%block-4-img-extend {
+    position: $block-4-img-position;
+    top: $block-4-img-top;
+    width: $block-4-img-width;
+    height: $block-4-img-height;
+    border-radius: $block-4-img-border-radius;
+    background-image: $block-4-background-image;
+    @extend %background-extend;
+}
+
+%block-4-img-text-extend {
+    width: $block-4-img-text-width;
+    text-align: $block-4-img-text-text-align;
+    font-size: $block-4-img-text-font-size;
+    color: $block-4-img-text-color;
+    position: $block-4-img-text-postion;
+    bottom: $block-4-img-text-bottom;
+    left: $block-4-img-text-left;
+}
+
+
+
+
+
+
+%right-block-extend {
+    position: $right-block-position;
+    bottom: $right-block-bottom;
+    left: $right-block-left;
+    padding: $right-block-padding;
+    padding-left: $right-block-padding-left;
+    width: $right-block-width;
+    height: $right-block-height;
+    background-color: $right-block-background-color;
+    border-radius: $right-block-border-radius;
+}
+
+%right-block-first-text-img-extend {
+    width: $right-block-first-text-img-width;
+    position: $right-block-first-text-img-position;
+    top: $right-block-first-text-img-top;
+    right: $right-block-first-text-img-right;
+}
+
+%right-block-block-1-extend {
+    width: $right-block-block-1-width;
+    height: $right-block-block-1-height;
+    margin-top: $right-block-block-1-margin-top;
+    padding: $right-block-block-1-padding;
+    padding-left: $right-block-block-1-padding-left;
+    @extend %background-extend;
+    background-image: $right-block-block-1-background-image;
+    border-radius: $right-block-block-1-border-radius;
+    filter: $right-block-block-1-filter;
+}
+
+%right-block-block-1-text-extend {
+    text-align: $right-block-block-1-text-text-align;
+    font-size: $right-block-block-1-text-font-size;
+    font-weight: $right-block-block-1-text-font-weight;
+    color: $right-block-block-1-text-color;
+}
+
+%right-block-block-1-btn-extend {
+    cursor: $right-block-block-1-btn-cursor;
+    color: $right-block-block-1-btn-color;
+    position: $right-block-block-1-btn-position;
+    top: $right-block-block-1-btn-top;
+    left: $right-block-block-1-btn-left;
+    width: $right-block-block-1-btn-width;
+    height: $right-block-block-1-btn-height;
+    background-color: $right-block-block-1-btn-background-color;
+    border-radius: $right-block-block-1-btn-border-radius;
+    font-size: $right-block-block-1-btn-font-size;
+    opacity: $right-block-block-1-btn-opacity;
+    padding: $right-block-block-1-btn-padding;
+}
+
+%right-block-second-text-1-extend {
+    font-size: $right-block-second-text-1-font-size;
+    font-weight: $right-block-second-text-1-font-weight;
+}
+
+%right-block-second-text-2-extend {
+    color: $right-block-second-text-2-color;
+    font-size: $right-block-second-text-2-font-size;
+}
+
+%right-block-block-2-extend {
+    width: $right-block-block-2-width;
+    height: $right-block-block-2-height;
+    background-color: $right-block-block-2-background-color;
+    border-radius: $right-block-block-2-border-radius;
+    margin-top: $right-block-block-2-margin-top;
+    box-shadow: $right-block-block-2-box-shadow;
+}

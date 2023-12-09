@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&family=Engagement&family=Inclusive+Sans&family=Kavivanar&family=Lexend+Tera:wght@200&family=MuseoModerno:ital@1&family=Nunito:wght@800&family=Onest:wght@300&family=Poppins:wght@200;400&family=Red+Hat+Mono:ital,wght@1,300&family=Roboto&family=Roboto+Mono:wght@700&family=Rubik+Glitch&family=Rubik+Vinyl&family=Shalimar&family=Ubuntu:wght@700&family=Wire+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #111;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+
+body {
+  background-color: #efebeb;
+}
+
+nav {
+  width: 110px;
+  height: 100vh;
+  background-color: #f6f6f6;
+  padding: 5px;
+  position: fixed;
+}
+
+.nav-logo-block {
+  padding-top: 20px;
+}
+
+.nav-logo {
+  width: 63px;
+}
+
+.nav-panels {
+  width: 45px;
+  font-size: 25px;
+  color: rgb(167, 167, 167);
+  margin: 23px;
+  cursor: pointer;
+}
+
+.panel-1 {
+  background-color: rgb(90, 139, 0);
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 130px;
+}
+
+.panel-5 {
+  margin-top: 90px;
+}
+
+.block-3-selectors-block, .first-text-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.first-text-block {
+  position: relative;
+  margin-left: 145px;
+  top: 20px;
+}
+
+.block-1 {
+  position: relative;
+  top: 40px;
+  width: 630px;
+  height: 55px;
+  background-color: rgb(168, 191, 125);
+  border-radius: 8px;
+  margin-left: 145px;
+  padding: 10px;
+  text-align: left;
+  color: #fff;
+  font-size: 14px;
+}
+
+.right-block-block-1, .block-4-img, .selector, .block-2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.block-2 {
+  width: 630px;
+  height: 170px;
+  position: relative;
+  top: 50px;
+  background-image: url("https://ukrainianwall.com/images/2019/06/20/mxsgr7oNKBDphAN8c3lvTM6onlxo93Jawa0COWAx.jpeg");
+  border-radius: 8px;
+  margin-left: 145px;
+}
+
+.block-2-text-1 {
+  color: #ffffff;
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.block-2-btn {
+  cursor: pointer;
+  position: relative;
+  top: 40px;
+  left: 240px;
+  width: 110px;
+  height: 43px;
+  background-color: #badb78;
+  border-radius: 22px;
+  color: #62783a;
+  font-size: 12px;
+  padding: 7px;
+}
+
+.block-2-arrow {
+  position: relative;
+  top: 3px;
+  color: #62783a;
+  font-size: 17px;
+}
+
+.block-3 {
+  width: 630px;
+  height: 190px;
+  position: relative;
+  top: 70px;
+  margin-left: 145px;
+  background-color: #faf6f6;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-left: 25px;
+}
+
+.block-3-rec-text {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.rec-icon {
+  width: 14px;
+  position: relative;
+  top: 2px;
+  right: 6px;
+}
+
+.selector {
+  width: 182px;
+  height: 130px;
+  margin: 6px;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-left: 13px;
+  background-image: url("https://img.freepik.com/premium-photo/butterhead-lettuce-on-a-white-background_41471-3340.jpg");
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  -webkit-filter: brightness(85%);
+          filter: brightness(85%);
+}
+
+.right-block-block-1-down-text, .sel-down-text {
+  color: #666;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.see-all-text {
+  cursor: pointer;
+  position: relative;
+  left: 380px;
+  font-size: 14px;
+  color: #666;
+}
+
+.block-4 {
+  width: 630px;
+  height: 150px;
+  position: relative;
+  top: 80px;
+  margin-left: 145px;
+  background-color: #faf6f6;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-left: 25px;
+}
+
+.block-4-first-text {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tools-img {
+  position: relative;
+  top: 4px;
+  right: 6px;
+  width: 20px;
+}
+
+.see-all-text-2 {
+  cursor: pointer;
+  font-size: 14px;
+  color: #666;
+  position: relative;
+  left: 255px;
+  bottom: 160px;
+}
+
+.block-4-img {
+  position: relative;
+  top: 13px;
+  width: 72px;
+  height: 72px;
+  border-radius: 10px;
+  background-image: url("https://img.freepik.com/premium-photo/urban-gardening-watering-fresh-vegetables-and-herbs-on-fruitful-soil-in-the-own-garden-raised-bed_264749-1552.jpg");
+}
+
+.block-4-img-text {
+  width: 500px;
+  text-align: left;
+  font-size: 12px;
+  color: #666;
+  position: relative;
+  bottom: 52px;
+  left: 85px;
+}
+
+.right-block {
+  position: relative;
+  bottom: 525px;
+  left: 793px;
+  padding: 15px;
+  padding-left: 20px;
+  width: 540px;
+  height: 605px;
+  background-color: #faf6f6;
+  border-radius: 15px;
+}
+
+.right-block-first-text-img {
+  width: 25px;
+  position: relative;
+  top: 6px;
+  right: 2px;
+}
+
+.right-block-block-1 {
+  width: 500px;
+  height: 210px;
+  margin-top: 10px;
+  padding: 15px;
+  padding-left: 20px;
+  background-image: url("https://chudobludo.com/assets/images/products/594/medium/zelen-1.png");
+  border-radius: 20px;
+  -webkit-filter: brightness(88%);
+          filter: brightness(88%);
+}
+
+.right-block-block-1-text {
+  text-align: left;
+  font-size: 17px;
+  font-weight: bold;
+  color: #111;
+}
+
+.right-block-block-1-btn {
+  cursor: pointer;
+  color: #62783a;
+  position: relative;
+  top: 100px;
+  left: 180px;
+  width: 100px;
+  height: 35px;
+  background-color: #e5f2c5;
+  border-radius: 22px;
+  font-size: 11px;
+  opacity: 80%;
+  padding: 6px;
+}
+
+.right-block-block-2-text-1, .right-block-second-text-1 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.right-block-block-2-text-2, .right-block-second-text-2 {
+  color: #666;
+  font-size: 16px;
+}
+
+.right-block-block-2 {
+  width: 500px;
+  height: 130px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-top: 10px;
+  -webkit-box-shadow: 1px 2px 6px #d3d3d3;
+          box-shadow: 1px 2px 6px #d3d3d3;
+}
+
+.selector-2 {
+  background-image: url("https://img.freepik.com/premium-photo/parsley-isolated-on-white-background_434193-7365.jpg?size=626&ext=jpg");
+}
+
+.selector-3 {
+  background-image: url("https://img.freepik.com/premium-photo/fresh-spinach-on-a-white-background_183352-1436.jpg");
+}
